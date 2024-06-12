@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
-import com.mycompany.examen.Examen;
+import examen3refactorizado.Examen;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -12,7 +12,8 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author persona
  */
-public class ExamenTest {
+public class ExamenTest extends Examen {
+    
     private  Examen miCuenta;
     
     @BeforeEach
@@ -75,3 +76,4 @@ public class ExamenTest {
     //
     // @Test
     // public void hello() {}
+
